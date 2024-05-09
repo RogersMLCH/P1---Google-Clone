@@ -78,3 +78,39 @@ border-radius: 50%;
 margin-left: 10px;
 }
 /* END nav .nav-rigth-section img */
+
+/* BEGIN main */
+main
+{
+margin-top: 150px;
+text-align: center;
+}
+/* END main */
+
+/* BEGIN main .main-logo */
+main .main-logo
+{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+/* END main .main-logo */
+
+/* BEGIN */
+/* definir el tamaño de la imagen en el sitio */
+main .main-logo img
+{
+    height: 92px;
+    width: 272px;
+}
+/* END */
+
+/* BEGIN main .main-input */
+main .main-input
+{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+/* END main .main-input */
+
