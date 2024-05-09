@@ -1,4 +1,8 @@
 
+/* BEGIN */
+
+/* END */
+
 /* BEGIN body*/
 body
 {
@@ -16,3 +20,61 @@ header
     height: 60px;
 }
 /* END Header*/
+
+/* BEGIN header nav*/
+header nav
+{
+display: flex;
+justify-content: flex-end;
+}
+/* END header nav*/
+
+/* BEGIN header nav .nav-rigth-section */
+header nav .nav-rigth-section
+{
+width: 250px;
+height: auto;
+display: flex;
+list-style: none;
+justify-content: center;
+align-items: center;
+}
+/* END header nav .nav-rigth-section */
+
+
+/* BEGIN nav .nav-rigth-section a */
+nav .nav-rigth-section a
+{
+ margin-right: 10px;
+ color: #000000;
+}
+/* END nav .nav-rigth-section a */
+
+/* BEGIN a */
+a
+{
+    text-decoration: none;
+    cursor: pointer;
+}
+/* END a */
+
+/* BEGIN nav .nav-rigth-section .menu-icon */
+nav .nav-rigth-section .menu-icon
+{
+background-image: url(https://static.thenounproject.com/png/756729-200.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+width: 25px;
+height: 25px;
+
+}
+/* END nav .nav-rigth-section .menu-icon */
+
+/* BEGIN nav .nav-rigth-section img */
+nav .nav-rigth-section img
+{
+border-radius: 50%;
+margin-left: 10px;
+}
+/* END nav .nav-rigth-section img */
