@@ -37,7 +37,6 @@ align-items: center;
 }
 /* END header nav .nav-rigth-section */
 
-
 /* BEGIN nav .nav-rigth-section a */
 nav .nav-rigth-section a
 {
@@ -75,8 +74,6 @@ margin-left: 10px;
 }
 /* END nav .nav-rigth-section img */
 
-/* END nav .nav-rigth-section img */
-
 /* BEGIN main */
 main
 {
@@ -112,8 +109,8 @@ main .main-input
 }
 /* END main .main-input */
 
-/* BEGIN main-input-container */
-main-input-container
+/* BEGIN main .main-input-container */
+main .main-input-container
 {
     width: 525px;
     border-radius: 100px;
@@ -121,8 +118,9 @@ main-input-container
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
-/* END main-input-container */
+/* END main .main-input-container */
 
 /* BEGIN main .main-input input */
 main .main-input input
@@ -131,13 +129,14 @@ main .main-input input
     height: 40px;
     border: none;    
     outline: none;
+    margin-right: 10px;
 }
 /* END main .main-input input */
 
 /* BEGIN main .main-input .search-icon */
 main .main-input .search-icon
 {
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/7e/Vector_search_icon.svg);
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -149,7 +148,7 @@ main .main-input .search-icon
 /* BEGIN  main .main-input .micro-icon */
 main .main-input .micro-icon
 {
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -180,12 +179,12 @@ main .main-buttons button
 {
     height: 36px;
     background-color: #f2f2f2;
-    border: 0;
+    border: 1px solid #f2f2f2;
     font-size: 14px;
     color: #5f6368;
     border-radius: 5px;
     padding: 0 15px;
-    margin-right: 15px;
+
 }
 /* END main .main-buttons button */
 
@@ -194,7 +193,9 @@ main .main-buttons button
 main .main-buttons button:hover
 {
     border: 1px solid #c6c6c6;
-    box-shadow: 0 1px 1px #000001;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 1);
     color: #222;
+    background-color: #f8f8f8;
+    cursor: pointer;
 }
 /* END main .main-buttons button:hover */
